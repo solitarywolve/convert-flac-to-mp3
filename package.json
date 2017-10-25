@@ -1,0 +1,26 @@
+{
+  "name": "convert-flac-to-mp3",
+  "version": "1.0.0",
+  "description": "Convert flac file to mp3 file using callback or promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solitarywolve/convert-flac-to-mp3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solitarywolve/convert-flac-to-mp3/issues"
+  },
+  "homepage": "https://github.com/solitarywolve/convert-flac-to-mp3#readme",
+  "devDependencies": {
+    "flac-to-mp3": "^1.0.4"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
